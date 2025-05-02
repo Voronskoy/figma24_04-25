@@ -3,3 +3,57 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.burger-menu{
+    position: relative;
+}
+
+.burger{
+    background-image: url(./../icon/Hamburguer.png);
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-position: -13px -5px;
+}
+.burger:hover{
+    background-position: -13px -65px;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 197px;
+    height: 177px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    text-align: center;
+    padding: 15px;
+}
+.menu>li>a{
+    display: inline-block;
+    padding: 15px;
+}
+.menu>li:first-child{
+    color:#F59E0B;
+}
+.menu>li:nth-child(2){
+    color:#38bdf8;
+}
+.menu>li:last-child{
+    color:#34d399;
+}
+.menu:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+    top: -20px;
+    left: 160px;
+}
+.burger-menu:hover>.menu{
+    display: block;
+    z-index: 999;
+}
