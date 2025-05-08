@@ -1,7 +1,59 @@
-.welcome{
-    background-image: linear-gradient(90deg,#FBED96,#ABECD6);
-    text-align: center;
-    border-radius: 20px;
-    padding: 24px;
-    margin-top: 30px;
+.welcome {
+  background-image: linear-gradient(90deg, #fbed96, #abecd6);
+  text-align: center;
+  border-radius: 20px;
+  padding: 24px;
+  margin-top: 30px;
+}
+.welcome > img {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.focus {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  color: #40c4ff;
+  /* background-image: linear-gradient(90deg,#40C4FF, #189FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.focus::after {
+  content: "";
+  background-image: url(./../icon/line.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 70%;
+  left: 3px;
+  width: 100%;
+  height: 30px;
+}
+.btn_contato {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 8px 36px;
+  border-radius: 32px;
+  font-size: 14px;
+}
+.btn_download::after {
+  content: url(./../icon/arrow.svg);
+  position: relative;
+  left: 0px;
+}
+.welcome > p {
+  font-size: 30px;
+  margin-bottom:0px;
+}
+.welcome > h2 { 
+    margin-top:8px;
+  }
+
+@media screen and (min-width: 992px) {
+  .welcome > p {
+    font-size: 60px;
+  }
 }

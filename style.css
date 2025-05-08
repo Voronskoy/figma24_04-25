@@ -23,5 +23,13 @@ ul{
 }
 h2{
     font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+@media screen and (min-width:992px){
+    h2{
+        font-size: 60px;
+    }
 
 }
