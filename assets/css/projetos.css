@@ -1,0 +1,72 @@
+.projetos h2{
+    font-size: 56px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.flex-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.projet h3{
+   font-size: 32px;
+   margin-bottom: 0;
+}
+.group button{
+    color:white;
+    border-radius: 32px;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 8px;
+}
+.group button:first-child{
+      background-color:#38BDF8;
+}
+.group button:nth-child(2){
+    background-color:#F43F5E;
+}
+.group button:nth-child(3){
+    background-color:#34D399;
+}
+.group button:nth-child(4){
+    background-color:#F59E0B;
+}
+.projet img{
+    margin-top: 20px;
+}
+.projet .list a{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.projet .list a img{
+    transform: translateY(4px);
+}
+.arrows button{
+    background-image: url(./../icon/leftNext\ Projects\ -\ button.svg);
+    height: 64px;
+    width: 64px;
+    border:none;
+}
+.arrows button:last-child{
+    background-image: url(./../icon/leftNext\ Projects\ -\ button.svg);
+    transform: scaleX(-1);
+    margin-left: 10px;
+}
+.arrows{
+    text-align: right;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:992px){
+    .projetos h2{
+    font-size: 92px;
+    line-height: 82px;
+    margin-bottom: 60px;
+}
+    .flex-parent{
+        flex-direction: row;
+        font-size: 38px;
+    }
+
+}
