@@ -1,0 +1,59 @@
+.sobremim h2{
+    background-image:url(./../icon/curlin.svg);
+    background-repeat: no-repeat;
+    background-position: -2px 63px;
+    background-size: 18%;
+    padding-bottom: 15px;
+}
+.small-img{
+    display: block;
+    margin: auto;
+}
+.vertical-line{
+    background-image:url(./../icon/Decoration.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 5px 100%;
+}
+.sobremim h3{
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.skills>figure>img{
+    height: 84px;
+    width: 84px;
+}
+.skills>figure{
+    margin: 0;
+    text-align: center;
+}
+.big-img{
+    display: none;
+}
+
+@media screen and (min-width:992px){
+    .small-img{
+        display: none;
+    }
+    .big-img{
+        display: block;
+        transform: translateY(-60px);
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+    }
+    .text{
+        width: 50%;
+    }
+    .vertical-line{
+        background-size: 7px 100%;
+    }
+
+}
