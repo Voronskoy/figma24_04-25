@@ -27,7 +27,8 @@ h2 {
   font-weight: 500;
 }
 .projetos h2,
-.sobremim h2 {
+.sobremim h2, 
+footer h2{
   font-size: 56px;
   line-height: 50px;
   margin-bottom: 40px;
@@ -38,7 +39,8 @@ h2 {
     font-size: 60px;
   }
    .projetos h2,
-   .sobremim h2{
+   .sobremim h2,
+   footer h2{
     font-size: 92px;
     line-height: 82px;
     margin-bottom: 60px;
